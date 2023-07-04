@@ -1,0 +1,80 @@
+.parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.backColor{
+    background-color: #C2ACFF;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* nav bar container  */
+.navbarContainer {
+    margin: 40px 0;
+    width: 80%;
+}
+
+/* hero section container  */
+.heroSectionContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+
+/* about us container  */
+.aboutUsContainer{
+    width: 80%;
+    margin-top: 50px;
+}
+
+.contactUsContainer{
+    width: 80%;
+    margin-top: 50px;
+}
+
+
+
+/* Hide the default scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  
+  /* Add a thin gray border around the scrollbar */
+  ::-webkit-scrollbar-thumb {
+    background-color: #b8b9c3;
+  }
+  
+  /* Change the color on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #b8b9c3;
+  }
+  
+  /* Add animation effect to the scrollbar */
+  @keyframes scrollbarFade {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  
+  /* Apply the animation to the scrollbar thumb */
+  ::-webkit-scrollbar-thumb:vertical {
+    animation: scrollbarFade 0.5s ease-in-out infinite alternate;
+  }
+  
